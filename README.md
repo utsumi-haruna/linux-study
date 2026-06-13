@@ -12,7 +12,7 @@
 - VirtualBox 7.2.8
 - Ubuntu Server 26.04 LTS
 
-##　Linux基本コマンド
+## Linux基本コマンド
 
 ### pwd
 
@@ -33,18 +33,16 @@
 ### touch
 
 ファイルの作成
+カレントディレクトリ以外に作るときはパスで指定
 
 - touch <ファイル名>
-- カレントディレクトリ以外に作るときはパスで指定
 
 ### mkdir
 
 フォルダの作成
 
 - mkdir <フォルダ名>
-- mkdir -p：親ディレクトリごと作成
-  - mkdir -p /web/kad01
-    /ディレクトリにwebを作成、その中にkad01を作成
+- mkdir -p /web/kad01：親ディレクトリごと作成
 
 ## Git基本操作
 
@@ -70,8 +68,7 @@
 ### 変更をステージに追加
 
 - git add <ファイル名>
-  全て追加する場合
-- git add .
+- 全て追加する場合：git add .
 
 ### コミット(保存)
 
@@ -80,8 +77,7 @@
 ### プッシュ(アップロード)
 
 - git push origin main
-  初回だけ
-- git push -u origin main
+- 初回だけ：git push -u origin main
 
 ### 履歴確認
 
