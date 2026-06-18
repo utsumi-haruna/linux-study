@@ -3,7 +3,7 @@
 ## 学習内容
 
 - Ubuntu　Server構築
-- Linux基本コマンド
+- [Linux基本コマンド](./commands.md)
 - Git/Github
 
 ## 環境
