@@ -3,8 +3,9 @@
 ## 学習内容
 
 - Ubuntu　Server構築
-- [Linux基本コマンド](./commands.md)
-- Git/Github
+- [Linuxコマンド](./commands.md)
+- [Linux知識まとめ](./knowledge.md)
+- [Git基本操作](./git-study.md)
 
 ## 環境
 
@@ -28,6 +29,8 @@
 
 - Linux基本コマンドを学習
 
-### 06-18
+### 07-01
 
-- commands.mdを作成し、README.mdから基本コマンドを切り分けました。
+- Apacheをインストール
+- DocumentRoot、DirectoryIndexを学習
+- vimをインストール

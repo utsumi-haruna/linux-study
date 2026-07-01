@@ -40,13 +40,8 @@
 
 ### 移動・リネーム
 
-移動
-
-- mv <移動させるもの><移動先>
-
-リネーム
-
-- mv <名前を変えたいもの><変えたい名前>
+- 移動：mv <移動させるもの><移動先>
+- リネーム：mv <名前を変えたいもの><変えたい名前>
 
 ### 削除
 
@@ -59,44 +54,36 @@
 
 - cat <ファイル名>
 
-## Git基本操作
+### ソフトウェア、パッケージ関連
 
-### 初期設定
+#### インストール
 
-- git config --global user.name "名前"
-- git config --global user.email　"メールアドレス"
+- sudu apt install ~
 
-### リポジトリ作成
+#### ステータス確認
 
-- git init
+- sudo systemctl status ~
 
-### リモート登録(初回のみ)
+#### 起動
 
-- git remote add origin https://github.com/ユーザー名/リポジトリ名.git
+- sudu systemctl start ~
 
-### 変更をステージに追加
+#### 再起動
 
-- git add <ファイル名>
-- 全て追加する場合：git add .
+- sudu systemctl restart ~
 
-### コミット(保存)
+#### 設定ファイルを再読み込み
 
-- git commit -m "メッセージ"
+- sudu systemctl reload ~
 
-### プッシュ(アップロード)
+### vim
 
-- git push origin main
-- 初回だけ：git push -u origin main
+- vimを使用：sudu vim <ファイル名>
 
-### クローン(リモートリポジトリをローカルに丸ごと複製)
+- 書き込む：i（インサート）
 
-- git clone https://github.com/ユーザー名/リポジトリ名.git
+- 書き込みを終了：esc
 
-### プル(リモートリポジトリの最新状態を取得して反映)
+- 保存して終了：:wq
 
-- cd <pullさせたいディレクトリ>
-- git pull
-
-### 履歴確認
-
-- git log
+- 保存せず終了：:q
