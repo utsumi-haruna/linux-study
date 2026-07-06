@@ -6,6 +6,7 @@
 - [Linuxコマンド](./commands.md)
 - [Linux知識まとめ](./knowledge.md)
 - [Git基本操作](./git-study.md)
+- [MySQL学習](./mysql-study.md)
 
 ## 環境
 
@@ -34,3 +35,8 @@
 - Apacheをインストール
 - DocumentRoot、DirectoryIndexを学習
 - vimをインストール
+
+### 07-06
+
+- パーミッションを学習
+- MySQLを学習
