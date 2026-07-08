@@ -1,14 +1,20 @@
 # Linuxコマンド
 
-## シャットダウンコマンド
+## よく使うコマンド
+
+### シャットダウン
 
 - sudo shutdown -h now
 - -h は「halt(ホルト)」の略で、停止という意味。
 - -r にすると再起動出来る。
 
-## 再起動
+### 再起動
 
 - sudo reboot
+
+### ipアドレスの確認
+
+- ip a
 
 ## ファイル・ディレクトリ関連
 
@@ -60,20 +66,14 @@
 
 ## ユーザー・グループ関連
 
-### ユーザーの追加
+### ユーザー/グループの追加
 
-- sudo adduser <ユーザー名>
-
-### ユーザーの削除
-
-- sudo deluser <ユーザー名>
-
-### グループの追加
-
+- sudo adduser <ユーザー>
 - sudo addgroup <グループ名>
 
-### グループの削除
+### ユーザー/グループの削除
 
+- sudo deluser <ユーザー名>
 - sudo delgroup <グループ名>
 
 ### パスワードの変更
@@ -86,48 +86,33 @@
 
 ## ソフトウェア、パッケージ関連
 
-### インストール
-
-- sudu apt install ~
-
-### ステータス確認
-
-- sudo systemctl status ~
-
-### 起動
-
-- sudu systemctl start ~
-
-### 再起動
-
-- sudu systemctl restart ~
-
-### 設定ファイルを再読み込み
-
-- sudu systemctl reload ~
-
-## aptコマンド
+### aptコマンド
 
 sudo apt <サブコマンド>
 
-### サブコマンド一覧
+#### サブコマンド一覧
 
 - ソフトウェアのインストール：install <ソフト名>
-
 - アンインストール：remove <ソフト名>
-
 - リポジトリ(ソフトウェアの倉庫)のアップデート：update
-
 - ソフトウェアの一括更新：upgrade
 
-## vim
+### systemctlコマンド
+
+sudo systemctl <サブコマンド> <ソフト名>
+
+#### サブコマンド一覧
+
+- 状態確認：status
+- 起動/停止：start/stop
+- 再起動/再読み込み：restart/reload
+- 自動起動のオン/オフ：enable/disable
+- 自動起動の確認：is-enabled
+
+## vim(テキストエディタ)
 
 - vimを使用：sudu vim <ファイル名>
-
-- 書き込む：i（インサート）
-
-- 書き込みを終了：esc
-
+- インサートモードに切り替え：i
+- コマンドモードに切り替え：esc
 - 保存して終了：:wq
-
 - 保存せず終了：:q
