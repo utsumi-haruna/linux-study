@@ -7,6 +7,7 @@
 - [Linux知識まとめ](./knowledge.md)
 - [Git基本操作](./git-study.md)
 - [MySQL学習](./mysql-study.md)
+- [almalinux学習](almalinux-study.md)
 
 ## 環境
 
@@ -41,3 +42,7 @@
 - パーミッションを学習
 - MySQLを学習
 - SSHを学習し、TeraTermでリモート接続
+
+### 07-21
+
+- almalinuxの学習をスタート、マークダウンファイルを作成

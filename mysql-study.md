@@ -2,15 +2,15 @@
 
 ## データベースの作成
 
-CREATE DATABASE <データベース名>;
+`CREATE DATABASE <データベース名>;`
 
 ## データベース一覧の確認
 
-SHOW DATABASES;
+`SHOW DATABASES;`
 
 ## MySQLユーザーの作成
 
-CREATE USER 'name'@'localhost' IDENTIFIED BY 'pass';
+`CREATE USER 'name'@'localhost' IDENTIFIED BY 'pass';`
 
 - `CREATE USER` は、MySQLにログインするためのユーザーを作成するSQL
 
@@ -24,7 +24,7 @@ CREATE USER 'name'@'localhost' IDENTIFIED BY 'pass';
 
 ## ユーザーに権限を付与
 
-GRANT ALL ON netken.\* TO 'name'@'localhost';
+`GRANT ALL ON netken.\* TO 'name'@'localhost';`
 
 - `GRANT` は、ユーザーに権限を与えるSQL
 
